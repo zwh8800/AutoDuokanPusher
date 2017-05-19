@@ -3,6 +3,10 @@ MAINTAINER zwh8800 <496781108@qq.com>
 
 WORKDIR /app
 
+ENV LC_ALL=en_US.UTF-8 \
+    LANG=en_US.UTF-8 \
+    LANGUAGE=en_US.UTF-8
+
 RUN apk update && apk add ca-certificates && apk add git && \
     apk add tzdata && ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && \
     echo "Asia/Shanghai" > /etc/timezone && go get -v github.com/Masterminds/glide
