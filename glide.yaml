@@ -1,0 +1,11 @@
+package: github.com/zwh8800/duokan-pusher
+import:
+- package: github.com/BurntSushi/toml
+  version: ~0.3.0
+- package: gopkg.in/gomail.v2
+  version: ~2.0.0
+- package: github.com/fsnotify/fsnotify
+  version: ~1.4.2
+- package: golang.org/x/sys
+  subpackages:
+  - '...'

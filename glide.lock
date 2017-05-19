@@ -1,0 +1,17 @@
+hash: d3047e7c713d141250e21771a642a076cde2ba3a5a72c011c311cc926e0bbf93
+updated: 2017-05-19T19:21:59.73850399+08:00
+imports:
+- name: github.com/BurntSushi/toml
+  version: b26d9c308763d68093482582cea63d69be07a0f0
+- name: github.com/fsnotify/fsnotify
+  version: 629574ca2a5df945712d3079857300b5e4da0236
+- name: golang.org/x/sys
+  version: a2e06a18b0d52d8cb2010e04b372a1965d8e3439
+  subpackages:
+  - '...'
+  - unix
+- name: gopkg.in/alexcesaro/quotedprintable.v3
+  version: 2caba252f4dc53eaf6b553000885530023f54623
+- name: gopkg.in/gomail.v2
+  version: 81ebce5c23dfd25c6c67194b37d3dd3f338c98b1
+testImports: []
