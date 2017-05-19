@@ -81,4 +81,5 @@ func sendEmail(path string) {
 	if err := d.DialAndSend(m); err != nil {
 		log.Println("Error: ", err)
 	}
+	log.Println("send", path, "ok")
 }
